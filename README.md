@@ -23,7 +23,7 @@ Dynamite Backup Project
 3. 将Charts文件夹内的所有文件放入该目录中，用文件夹里的__rena_index_2文件覆盖掉本地的对应文件
 4. 即可离线游玩
 
-> 对于版本大于等于12的安卓系统，如发现默认文件管理器无法打开Android/data，请考虑root
+> 对于版本大于等于12的安卓系统，如发现默认文件管理器无法打开Android/data，请考虑利用Magisk等工具root
 
 ### iOS
 
