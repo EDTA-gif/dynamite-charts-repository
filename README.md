@@ -42,7 +42,6 @@ Dynamite Backup Project
 3. 在Sideloadly中勾选以下选项后安装ipa
    * Enable UIFileSharing
    * Remove limitation on supported devices
-   * Change app name（并改一个不是Dynamite的名称）
 4. 使用imazing、iTunes或爱思助手等软件在应用管理（iTunes的文件共享）里找到你安装的Dynamite程序，`/Documents`目录中的内容即为谱面数据内容，相当于安卓的`/files`目录
 
 ## 其他Dynamite相关文档的友情链接
