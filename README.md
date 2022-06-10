@@ -13,7 +13,6 @@ Dynamite Backup Project
 * 若搜不到自己确定曾经过审过的谱面请提交Issue，我会更新在README里
 * 目前已知未收录谱面：
    * Ignotus Afterburn Giga 2041 By Rezasho, Unranked，2022愚人节谱面
-   * MassacrE || 3rc4224M Mega 15 By OVERNIGHT (One-sided Action)，Unranked，于6/8 19:37过审
    * εxceζ Giga 15 By γraphitε，Unranked，于6/8 20:09过审
    * {albus} Giga 14 By Graphite，Unranked，于6/8 20:10过审
 * 如果你本地保存有以上谱面的数据且想要提取出来上传的话，请将谱面文件和包含对应信息的`__rena_index_2`文件打包发送至trickl4sh220@foxmail.com
