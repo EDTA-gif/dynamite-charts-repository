@@ -3,6 +3,20 @@ Dynamite Backup Project
 
 > [Check out the English version!](./README_EN.md)
 
+<!-- TOC -->
+
+- [Dynamite Backup Project](#dynamite-backup-project)
+  - [收录范围](#收录范围)
+  - [曲目一览](#曲目一览)
+  - [导入方法](#导入方法)
+    - [Android](#android)
+    - [iOS (Sideloadly/AltStore)](#ios-sideloadlyaltstore)
+    - [iOS (越狱)](#ios-越狱)
+  - [其他Dynamite相关文档与教程视频的友情链接](#其他dynamite相关文档与教程视频的友情链接)
+  - [特别鸣谢](#特别鸣谢)
+
+<!-- /TOC -->
+
 ## 收录范围
 * 截至2022/6/10 Dynamite关服前已通过Ranked/Unranked审核的所有谱面
 * 对文件名，文件结构和`__rena_index_2`文件进行了整理
@@ -18,7 +32,7 @@ Dynamite Backup Project
 
 ## 导入方法
 
-> 导入自定义谱面的方法请参考[这里](./Custom_Import_Tutorial.md)
+> **导入自定义谱面的方法请参考[这里](./Custom_Import_Tutorial.md)**
 
 ### Android
 
@@ -43,7 +57,7 @@ Dynamite Backup Project
 2. 以下两项二选一完成
    
 > * 去[Sideloadly官网](https://sideloadly.io/)下载并将Sideloadly安装到电脑上
-> * 将设备连接电脑后利用Sideloadly安装ipa
+> * 将设备连接电脑后利用Sideloadly安装ipa(其他选项保持默认即可)
 
 > * 在[AltStore官网](https://altstore.io/)下载并安装AltServer
 > * 将设备连接电脑后利用AltServer在设备上安装AltStore
@@ -65,13 +79,20 @@ Dynamite Backup Project
 6. 寻找Dynamite之后移步到Documents
 7. 删除除了Unity文件夹和`__rena_mark_store_3`之外的所有文件以节省空间
 8. 完成!
-## 其他Dynamite相关文档的友情链接
+## 其他Dynamite相关文档与教程视频的友情链接
 
 [Ranked谱面R值定数表图片版](https://www.bilibili.com/read/cv16981243)
 
 [Ranked谱面R值计算拟合公式](https://www.bilibili.com/read/cv17024921)
 
+[添加自制谱信息操作流程演示（视频）](https://www.bilibili.com/video/BV13v4y1G7sZ)
+
+[iOS系统安装ipa和导入数据的方法（视频）](https://www.bilibili.com/video/BV1ST411V72Q)
+
 ## 特别鸣谢
 * i0nTempest
 * Errno
 * Jmak
+* asasaxd
+* eastown
+
