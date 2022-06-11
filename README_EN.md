@@ -6,14 +6,14 @@ Dynamite Backup Project
 <!-- TOC -->
 
 - [Dynamite Backup Project](#dynamite-backup-project)
-  - [Charts Included](#charts-included)
-  - [List of Songs](#list-of-songs)
-  - [Importing Method](#importing-method)
-    - [Android](#android)
-    - [iOS (Sideloadly/AltStore)](#ios-sideloadlyaltstore)
-    - [iOS (Jailbreak)](#ios-jailbreak)
-  - [Links to other Dynamite related documents and tutorial videos](#links-to-other-dynamite-related-documents-and-tutorial-videos)
-  - [Special Thanks](#special-thanks)
+    - [Charts Included](#charts-included)
+    - [List of Songs](#list-of-songs)
+    - [Importing Method](#importing-method)
+        - [Android](#android)
+        - [iOS Sideloadly/AltStore](#ios-sideloadlyaltstore)
+        - [iOS Jailbreak](#ios-jailbreak)
+    - [Links to other Dynamite related documents and tutorial videos](#links-to-other-dynamite-related-documents-and-tutorial-videos)
+    - [Special Thanks](#special-thanks)
 
 <!-- /TOC -->
 
@@ -32,7 +32,7 @@ Dynamite Backup Project
 
 ## Importing Method
 
-> To import custom chart to dynamite, see [this](./Custom_Import_Tutorial_EN.md)
+> **To import custom chart to dynamite, see [this](./Custom_Import_Tutorial_EN.md)**
 
 ### Android
 

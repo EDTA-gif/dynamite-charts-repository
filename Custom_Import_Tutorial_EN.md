@@ -30,7 +30,7 @@ E.
   * No bug caused by using an repeated/empty uuid has been reported so far. 
 
 * All file paths are relative paths to `data`/`Documents` folder
-  * Semicolons (`;`) in path is not allowed, all other symbols will be treated as part of the path.
+  * Semicolons (`;`) in path is not allowed, all other symbols will be treated as part of the path.</br>
     For example, if the chart file is named `SECRET;WEAPON_M.xml`, then no matter whether the entry is `M?SECRET;WEAPON_M.xml;` or `M?"SECRET;WEAPON_M.xml";`, the game won't find the chart file. Please delete semicolons in filenames.
   * Slashes `/` cannot be replaced by backslashes `\`
 
