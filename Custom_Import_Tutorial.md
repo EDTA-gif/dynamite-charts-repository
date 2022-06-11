@@ -1,5 +1,4 @@
 # 将自己的谱面导入Dynamite中游玩
-===
 
 > [English ver.](./Custom_Import_Tutorial_EN.md)
 
