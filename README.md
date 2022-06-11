@@ -50,7 +50,7 @@ Dynamite Backup Project
 > * 利用AltStore安装ipa
   
 3. 非官方应用安装完后需要在`设置 > 通用 > 设备管理`中信任对应账号
-4. 使用iTunes的文件管理或Files找到你安装的Dynamite程序，`/Documents`目录中的内容即为谱面数据内容，相当于安卓的`/files`目录
+4. 可以使用PC端的iMazing、iTunes或爱思助手等软件或iOS设备上的“文件”APP打开Dynamite的数据目录进行操作，`/Documents`目录中的内容即为谱面数据内容，相当于安卓的`/files`目录
 5. 每7天需要用Sideloadly/Altstore重新安装ipa，虽然只要不删掉Dynamite且安装时使用同一个Apple ID即可保留数据，但还是请注意数据备份
 
 ### iOS (越狱)
@@ -58,7 +58,7 @@ Dynamite Backup Project
 > By Jmak
 
 1. 请不要删掉在设备的Dynamite，以下这个方法是让TestFlight过期了还可以继续使用
-2. 在Cydia/Sileo（Zebra或者其他也行）添加新的Source(http://cydia.kiiimo.org)或者(https://repo.hackyouriphone.org)然后安装Anti-Revoke 2
+2. 在Cydia/Sileo（Zebra或者其他也行）添加新的Source (http://cydia.kiiimo.org) 或者 (https://repo.hackyouriphone.org) 然后安装Anti-Revoke 2
 3. 确保已在Cydia/Sileo（Zebra或者其他也行）安裝Filza File Manager，免费和付费版都可以
 4. 在左边按上Apps manager
 5. 关上激活Filza的通知（付费的可以绕过这个步骤）

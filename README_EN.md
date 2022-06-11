@@ -50,7 +50,7 @@ Dynamite Backup Project
 > * Install the Dynamite ipa via AltStore
   
 3. You may need to go to `Settings -> General -> Profiles & Device Management` to trust the Apple ID you used to install the apps
-4. You can use iTunes or the default File application to manage the data of the Dynamite program, within the `/Documents` directory is the content of the chart data, equivalent to Android `/files`
+4. Now you can use PC software such as imazing, iTunes or i4 Assistant (爱思助手), or the default File application on your iOS device, to manage the data of the Dynamite program. within the `/Documents` directory is the content of the chart data, equivalent to Android `/files`
 5. You will have to re-sign the application every 7 days with Sideloadly/AltStore. Though as long as you do not delete the Dynamite app and use the same Apple ID to sign, you will not lose any data, it's still recommended to backup your data regularly.
 
 ### iOS (Jailbreak)
