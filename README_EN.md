@@ -3,6 +3,20 @@ Dynamite Backup Project
 
 > Translated by Jmak
 
+<!-- TOC -->
+
+- [Dynamite Backup Project](#dynamite-backup-project)
+  - [Charts Included](#charts-included)
+  - [List of Songs](#list-of-songs)
+  - [Importing Method](#importing-method)
+    - [Android](#android)
+    - [iOS (Sideloadly/AltStore)](#ios-sideloadlyaltstore)
+    - [iOS (Jailbreak)](#ios-jailbreak)
+  - [Links to other Dynamite related documents and tutorial videos](#links-to-other-dynamite-related-documents-and-tutorial-videos)
+  - [Special Thanks](#special-thanks)
+
+<!-- /TOC -->
+
 ## Charts Included
 * All ranked and unranked charts that were approved by June 10, 2022 before Dynamite servers were terminated
 * Filenames, file structures and `__rena_index_2` are rearranged
@@ -66,13 +80,19 @@ Dynamite Backup Project
 7. Delete all the files except for `__rena_mark_store_3` and the Unity folder to save space
 8. Finished!
 
-## Links to other Dynamite related documents
+## Links to other Dynamite related documents and tutorial videos
 
 [R value tier list for dynamite ranked charts](https://www.bilibili.com/read/cv16981243)
 
 [Formula for R value calculation according to your performance](https://www.bilibili.com/read/cv17024921)
 
+[Custom chart import methods' demostration (Bilibili video)](https://www.bilibili.com/video/BV13v4y1G7sZ)
+
+[Installing ipa file and importing data (Bilibili video)](https://www.bilibili.com/video/BV1ST411V72Q)
+
 ## Special Thanks
 * i0nTempest
 * Errno
 * Jmak
+* asasaxd
+* eastown
