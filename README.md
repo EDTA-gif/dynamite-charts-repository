@@ -1,6 +1,7 @@
 Dynamite Backup Project
 ===
-> [English ver.](./README_EN.md)
+
+> [Check out the English version!](./README_EN.md)
 
 <!-- TOC -->
 
@@ -94,3 +95,4 @@ Dynamite Backup Project
 * Jmak
 * asasaxd
 * eastown
+
