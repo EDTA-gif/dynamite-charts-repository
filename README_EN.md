@@ -35,7 +35,8 @@ Dynamite Backup Project
 ### iOS (Sideloadly/AltStore)
 
 > References：
-> [iOS import method post in Bilibili](https://www.bilibili.com/read/cv17026497)
+> 
+> [iOS import method post in Bilibili](https://www.bilibili.com/read/cv17026497)</n>
 > [Jmak's manual](https://docs.google.com/document/d/1-1ydDVTnuJO2g49b-9FFa9vXiAFRLGUEK4ullHnD2fU)
 
 1. Download the `Dynamite_filesharing.ipa` file in [releases](https://github.com/EDTA-gif/dynamite-charts-repository/releases/tag/Game_executable)
