@@ -43,7 +43,7 @@ Dynamite Backup Project
 2. 以下两项二选一完成
    
 > * 去[Sideloadly官网](https://sideloadly.io/)下载并将Sideloadly安装到电脑上
-> * 将设备连接电脑后利用Sideloadly安装ipa
+> * 将设备连接电脑后利用Sideloadly安装ipa(其他选项保持默认即可)
 
 > * 在[AltStore官网](https://altstore.io/)下载并安装AltServer
 > * 将设备连接电脑后利用AltServer在设备上安装AltStore

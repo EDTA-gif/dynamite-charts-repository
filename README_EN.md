@@ -43,7 +43,7 @@ Dynamite Backup Project
 2. Choose one of the following blocks and follow the guide in it
    
 > * Download Sideloadly from their [official website](https://sideloadly.io/) and install it on your PC
-> * Connect your iOS device to your PC and install the dynamite ipa via Sideloadly
+> * Connect your iOS device to your PC and install the dynamite ipa via Sideloadly (with default Sideloadly settings)
 
 > * Download Altserver from their [official website](https://altstore.io/) and install it on your PC
 > * Connect your iOS device to your PC and install AltStore via AltServer
