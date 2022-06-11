@@ -36,7 +36,7 @@ Dynamite Backup Project
 
 > 参考：
 > 
-> [iOS导入方法b站专栏](https://www.bilibili.com/read/cv17026497)</n>
+> [iOS导入方法b站专栏](https://www.bilibili.com/read/cv17026497) & 
 > [Jmak的Manual](https://docs.google.com/document/d/1-1ydDVTnuJO2g49b-9FFa9vXiAFRLGUEK4ullHnD2fU)
 
 1. 在页面右侧的Release中下载系统安装包`Dynamite_filesharing.ipa`文件
