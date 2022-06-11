@@ -12,16 +12,9 @@ Dynamite Backup Project
 ## List of Songs
 * Most of the subfolders in the Charts folder are named according to the format of `<song title>(<charter>)`. For songs that has more than one version, it will be renamed as `<song title>_<ranked status>(<charter>)`
 * As there are too many charts, GitHub will only show the first 1,000 subfolders, so please navigate to `rena_index_list` and use `Ctrl+F` to search for track names in the file's source code
-* If you encounter one of the following cases, please submit an Issue and I will fix it or update it in the README
+* If you encounter one of the following cases, please submit an Issue or send an e-mail to trickl4sh220@foxmail.com, I will fix it or update it in the README
    * Cannot find a chart that you are sure that has passed the review
-   * A track's chart file or music file doesn't play properly 
-* Missing chart sets：
-   * Ignotus Afterburn Giga 2041 By Rezasho, Unranked，2020 April Fools Chart
-   * εxceζ Giga 15 By γraphitε，Unranked，Approved as Unranked in 20:09 June 8, 2022
-   * {albus} Giga 14 By Graphite，Unranked，Approved as Unranked in 20:10 June 8, 2022
-* If you have saved the chart data mentioned above locally and want to extract it and upload it, please package the chart files and the `__rena_index_2` file containing the corresponding information and send it to trickl4sh220@foxmail.com
-   * If you have the ability to fork and make changes within GitHub, I can merge it afterwards (preferrable)
-   * If you are sure that you have saved it but you cannot find the corresponding game file, you can send the entire files as a compressed package, but considering the file size, it is not recommended to do so
+   * A track's chart file or music file doesn't play properly
 
 ## Importing Method
 
@@ -39,47 +32,25 @@ Dynamite Backup Project
 
 > For Android systems with version 12 or higher, if your file manager cannot access `Android/data`, please consider using tools such as Magisk to root
 
-### iOS (Sideloadly)
+### iOS (Sideloadly/AltStore)
 
-> Original Post in Bilibili：[Link](https://www.bilibili.com/read/cv17026497)
+> References：
+> [iOS import method post in Bilibili](https://www.bilibili.com/read/cv17026497)
+> [Jmak's manual](https://docs.google.com/document/d/1-1ydDVTnuJO2g49b-9FFa9vXiAFRLGUEK4ullHnD2fU)
 
-1. Prepare the `.ipa` Dynamite file to install 
-2. Download Sideloadly from their [official website](https://sideloadly.io/)
-3. Install ipa after checking the following options in Sideloadly
-   * Enable UIFileSharing
-   * Remove limitation on supported devices
-4. Use software such as imazing, iTunes or i4 Assistant (爱思助手) to find the Dynamite program you installed in the application management through iTunes File Sharing, within the `/Documents` directory is the content of the chart data, equivalent to Android `/files`
-5. You will have to re-sign the application every 7 days with Sideloadly. As long as you do not delete the Dynamite app and use the same Apple ID to sign with Sideloadly, you will not lose any data, but it's always best to backup data.
+1. Download the `Dynamite_filesharing.ipa` file in [releases](https://github.com/EDTA-gif/dynamite-charts-repository/releases/tag/Game_executable)
+2. Choose one of the following blocks and follow the guide in it
+   
+> * Download Sideloadly from their [official website](https://sideloadly.io/) and install it on your PC
+> * Connect your iOS device to your PC and install the dynamite ipa via Sideloadly
 
-### iOS (Filza file explorer)
-
-> By [Jmak](https://docs.google.com/document/d/1-1ydDVTnuJO2g49b-9FFa9vXiAFRLGUEK4ullHnD2fU)
-
-**Suitable for iOS 11-13.4.1 / 15-15.1.1 only**
-
-##### Without computer
-1. Download FilzaEscaped from this website (https://basvtdevelopments.com/filzaescaped) 
-2. Go to Freebox (https://freebox.co/web/signer/)
-3. Choose the .ipa file for FilzaEscaped in Freebox by tapping Choose File > Browse > Dynamite.ipa > Sign > Wait for it to download > Choose Open on “Open this page in iTunes” > Install
-4. Navigate to Settings > General > VPN & Device Management > Apple ID > Trust
-5. Choose the .ipa Dynamite file in Freebox by tapping Choose File > Browse > Dynamite.ipa > Sign > Wait for it to download > Choose Open on “Open this page in iTunes” > Install
-6. After installation, navigate to Settings > General > VPN & Device Management > Apple ID > Trust
-7. Open Filza File Manager. The first time you launch it, the app may crash. Just reopen it a few times and you should get access
-8. Click on Apps manager on the left sidebar
-9. Close off the activate notification (Paid users can ignore this step)
-10. Search for the app Dynamite and navigate to the Documents folder
-11. Select all the files except for`__rena_mark_store_3`and the Unity folder
-12. Finished!
-13. Apple may revoke some app certificates. If you cannot install the apps, Apple has revoked them, leaving you with the computer method. Make sure you have a backup of your chart files just in case.
-
-##### With computer
-1. Download Sideloadly (https://sideloadly.io/) or AltServer (https://altstore.io/), and FilzaEscaped(https://basvtdevelopments.com/filzaescaped)
-2. Install ipa in Sideloadly / Install AltServer and select install AltStore to your device
-3. (Only AltStore users are required to do Step 3) Download FilzaEscaped and Dynamite .ipa file from your device and use AltStore to install
-4. Navigate to Settings > General > VPN & Device Management > Apple ID > Trust
-5. Jump to step 7 as above, just follow the instructions
-10. Finished!
-11. You will have to resign the application every 7 days with Sideloadly/AltServer. As long as you do not delete the Dynamite app and use the same Apple ID to sign with, you will not lose any data, but it's always best to backup data.
+> * Download Altserver from their [official website](https://altstore.io/) and install it on your PC
+> * Connect your iOS device to your PC and install AltStore via AltServer
+> * Install the Dynamite ipa via AltStore
+  
+3. You may need to go to `Settings -> General -> Profiles & Device Management` to trust the Apple ID you used to install the apps
+4. You can use iTunes or the default File application to manage the data of the Dynamite program, within the `/Documents` directory is the content of the chart data, equivalent to Android `/files`
+5. You will have to re-sign the application every 7 days with Sideloadly/AltStore. Though as long as you do not delete the Dynamite app and use the same Apple ID to sign, you will not lose any data, it's still recommended to backup your data regularly.
 
 ### iOS (Jailbreak)
 
