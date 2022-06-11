@@ -63,7 +63,7 @@ Dynamite Backup Project
 4. Click on Apps manager on the left sidebar
 5. Close off the activate notification (Paid users can ignore this step)
 6. Search for the app Dynamite and navigate to the Documents folder
-7. Select all the files except for `__rena_mark_store_3` and the Unity folder
+7. Delete all the files except for `__rena_mark_store_3` and the Unity folder to save space
 8. Finished!
 
 ## Links to other Dynamite related documents

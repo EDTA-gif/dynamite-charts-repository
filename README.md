@@ -63,7 +63,7 @@ Dynamite Backup Project
 4. 在左边按上Apps manager
 5. 关上激活Filza的通知（付费的可以绕过这个步骤）
 6. 寻找Dynamite之后移步到Documents
-7. 全选所有档案，除了Unity档案夹和`__rena_mark_store_3`之外
+7. 删除除了Unity文件夹和`__rena_mark_store_3`之外的所有文件以节省空间
 8. 完成!
 ## 其他Dynamite相关文档的友情链接
 
