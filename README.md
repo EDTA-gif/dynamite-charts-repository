@@ -1,7 +1,7 @@
 Dynamite Backup Project
 ===
 
-> [Check the English version!](./README_EN.md)
+> [Check out the English version!](./README_EN.md)
 
 ## 收录范围
 * 截至2022/6/10 Dynamite关服前已通过Ranked/Unranked审核的所有谱面
