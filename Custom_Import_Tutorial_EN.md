@@ -3,13 +3,13 @@
 ## Step 1
 Copy your chart, music, preview music and cover files into `data`(Android)/`Documents`(iOS) folder.
 
-* Can only read audio files in `.mp3` format and image files in `.jpg` format
+* As far as we know, only audio files in `.mp3` format and pictures in `.jpg` or `.png` format can be properly imported, so please convert your files if  they're not in formats that are mentioned above.
 * Refer to [Main Guide](./README_EN.md) for detailed import methods
 
 ## Step 2
 Modify the local `__rena_index_2` file to add an entry for your file
 
-Entry Structure：
+Entry structure：
 ```
 B.<UUID>
 Y?<Hidden chart?(0/1)>
@@ -25,11 +25,25 @@ H?<Chart difficulty 1>;<Chart difficulty 2>; ...
 M?<Chart file 1>;<Chart file 2>; ...
 E.
 ```
-* Any random 24-bit UUID will work
+* Any value works in UUID row
+  * A random hex string of length 24 is recommended
+  * No bug caused by using an repeated/empty uuid has been reported so far. 
+
 * All file paths are relative paths to `data`/`Documents` folder
+  * Semicolons (`;`) in path is not allowed, all other symbols will be treated as part of the path.
+    For example, if the chart file is named `SECRET;WEAPON_M.xml`, then no matter whether the entry is `M?SECRET;WEAPON_M.xml;` or `M?"SECRET;WEAPON_M.xml";`, the game won't find the chart file. Please delete semicolons in filenames.
+  * Slashes `/` cannot be replaced by backslashes `\`
+
 * For multiple-diffed charts, the file paths correspond to the difficulties in input order
-* It's allowed to have custom diff names
-* If you don't want the chart to be identified as ranked or hidden, you can just leave out the whole line
+  * If there are more files than difficulties, the redundant charts will be ignored.
+  * Less files than difficulties will cause bugs to occur.
+
+* It's allowed to have custom difficulty names and levels
+  * Any name or level without comma `,` or semicolon `;` is allowed
+  * Any input except Causal, Normal, Hard, Mega and Giga (case insensitive) will be regarded as custom difficulty names, and will be displayed in the layout of Tera.
+
+* If you want the chart to be identified as unranked or not hidden, leave out that whole line. Any value given will be regarded as true
+  * The value will be regarded as true even with inputs like `R?` or `R?0`
 
 
 Example:
