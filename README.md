@@ -39,7 +39,7 @@ Dynamite Backup Project
 > [iOS导入方法b站专栏](https://www.bilibili.com/read/cv17026497) & 
 > [Jmak的Manual](https://docs.google.com/document/d/1-1ydDVTnuJO2g49b-9FFa9vXiAFRLGUEK4ullHnD2fU)
 
-1. 在页面右侧的Release中下载系统安装包`Dynamite_filesharing.ipa`文件
+1. 在页面右侧的[Releases](https://github.com/EDTA-gif/dynamite-charts-repository/releases/tag/Game_executable)中下载系统安装包`Dynamite_filesharing.ipa`文件
 2. 以下两项二选一完成
    
 > * 去[Sideloadly官网](https://sideloadly.io/)下载并将Sideloadly安装到电脑上
