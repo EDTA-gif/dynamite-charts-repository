@@ -4693,14 +4693,14 @@ E.
 
 B.60c4c63afe59b862c3c52852
 N?WHITEOUT
-S?WHITEOUT(「――ああ、漸くお逢いできました」 - ''幽玄の譲子''Clover ＄ぺぬ;)/WHITEOUT.mp3.rnx
-C?WHITEOUT(「――ああ、漸くお逢いできました」 - ''幽玄の譲子''Clover ＄ぺぬ;)/WHITEOUT.jpg.rnx
-P?WHITEOUT(「――ああ、漸くお逢いできました」 - ''幽玄の譲子''Clover ＄ぺぬ;)/WHITEOUT_preview.mp3.rnx
+S?WHITEOUT(「――ああ、漸くお逢いできました」 - ''幽玄の譲子''Clover ＄ぺぬ)/WHITEOUT.mp3.rnx
+C?WHITEOUT(「――ああ、漸くお逢いできました」 - ''幽玄の譲子''Clover ＄ぺぬ)/WHITEOUT.jpg.rnx
+P?WHITEOUT(「――ああ、漸くお逢いできました」 - ''幽玄の譲子''Clover ＄ぺぬ)/WHITEOUT_preview.mp3.rnx
 U?「――ああ、漸くお逢いできました」 - ''幽玄の譲子''Clover ＄ぺぬ;
 W?かねこちはる
 I?
 H?GIGA,15;
-M?WHITEOUT(「――ああ、漸くお逢いできました」 - ''幽玄の譲子''Clover ＄ぺぬ;)/WHITEOUT_GIGA.xml.rnx;
+M?WHITEOUT(「――ああ、漸くお逢いできました」 - ''幽玄の譲子''Clover ＄ぺぬ)/WHITEOUT_GIGA.xml.rnx;
 E.
 
 B.60c0e13cfe59b862c3c35150
@@ -9671,14 +9671,14 @@ E.
 
 B.5ec0d14a310869d9d35f3ab7
 N?非実在青少年(kmsn Bootleg)
-S?非実在青少年(kmsn Bootleg)(Chaos;6rieF)/非実在青少年(kmsn Bootleg).mp3.rnx
-C?非実在青少年(kmsn Bootleg)(Chaos;6rieF)/非実在青少年(kmsn Bootleg).jpg.rnx
-P?非実在青少年(kmsn Bootleg)(Chaos;6rieF)/非実在青少年(kmsn Bootleg)_preview.mp3.rnx
+S?非実在青少年(kmsn Bootleg)(Chaos6rieF)/非実在青少年(kmsn Bootleg).mp3.rnx
+C?非実在青少年(kmsn Bootleg)(Chaos6rieF)/非実在青少年(kmsn Bootleg).jpg.rnx
+P?非実在青少年(kmsn Bootleg)(Chaos6rieF)/非実在青少年(kmsn Bootleg)_preview.mp3.rnx
 U?Chaos;6rieF
 W?志倉千代丸(Vocal : いとうかなこ)
 I?Origin : 非実在青少年 - いとうかなこ（科学ADVゲーム [ CHAOS;CHILD ] OP）\nGenre : Psytrance
 H?HARD,9;MEGA,11;
-M?非実在青少年(kmsn Bootleg)(Chaos;6rieF)/非実在青少年(kmsn Bootleg)_HARD.xml.rnx;非実在青少年(kmsn Bootleg)(Chaos;6rieF)/非実在青少年(kmsn Bootleg)_MEGA.xml.rnx;
+M?非実在青少年(kmsn Bootleg)(Chaos6rieF)/非実在青少年(kmsn Bootleg)_HARD.xml.rnx;非実在青少年(kmsn Bootleg)(Chaos6rieF)/非実在青少年(kmsn Bootleg)_MEGA.xml.rnx;
 E.
 
 B.5ea3f49cb5805c7927ec1f74
