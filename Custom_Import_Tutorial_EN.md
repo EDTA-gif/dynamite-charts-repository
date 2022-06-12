@@ -27,7 +27,7 @@ E.
 ```
 * Any value works in UUID row
   * A random hex string of length 24 is recommended
-  * No bug caused by using an repeated/empty uuid has been reported so far. 
+  * UUID is related to score records. Duplicated UUID leads to incorrect relation from song to score records, and empty UUID causes inability to record play score.
 
 * All file paths are relative paths to `data`/`Documents` folder
   * Semicolons (`;`) in path is not allowed, all other symbols will be treated as part of the path.</br>
