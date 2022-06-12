@@ -12,8 +12,8 @@ Modify the local `__rena_index_2` file to add an entry for your file
 Entry structure：
 ```
 B.<UUID>
-Y?<Hidden chart?(0/1)>
-R?<Ranked chart?(0/1)>
+Y?<Hidden chart?>
+R?<Ranked chart?>
 N?<Song Name>
 S?<Music file path>
 C?<Cover file path>
