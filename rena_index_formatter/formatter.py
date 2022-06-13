@@ -2,6 +2,7 @@ import os
 import re
 import codecs
 import tkinter as tk
+from tkinter import BOTH, TRUE, ttk
 from tkinter import filedialog
 
 _Re_list = re.compile(
@@ -168,15 +169,24 @@ if __name__ == '__main__':
         }
     }
 
-    frame_upper = tk.Frame(mainWindow)
-    frame_upper.pack(side='top')
+    note = ttk.Notebook(mainWindow)
+    note.pack(fill=BOTH, expand=TRUE)
+    generatorFrame = tk.Frame(mainWindow)
+    appendorFrame = tk.Frame(mainWindow)
+    note.add(generatorFrame,text='Dynamite database')
+    note.add(appendorFrame,text='Custom chart')
+
+    # Generate rena index from database
+
+    generatorframe_upper = tk.Frame(generatorFrame)
+    generatorframe_upper.pack(side='top')
     for column, catagory in enumerate(item_list):
-        tk.Label(frame_upper, text=catagory, width=10, height=5).grid(row = 0, column=column, padx='10px')
+        tk.Label(generatorframe_upper, text=catagory, width=10, height=5).grid(row = 0, column=column, padx='10px')
         item_list[catagory]['checkboxes'] = []
         item_list[catagory]['variables'] = []
         item_list[catagory]['variables'].append(tk.IntVar())
         tk.Checkbutton(
-            frame_upper, 
+            generatorframe_upper, 
             text="All",
             variable=item_list[catagory]['variables'][0],
             onvalue=1,
@@ -192,7 +202,7 @@ if __name__ == '__main__':
         for id, item in enumerate(item_list[catagory]['list']):
             item_list[catagory]['variables'].append(tk.IntVar())
             checkbox = tk.Checkbutton(
-                frame_upper, 
+                generatorframe_upper, 
                 text=item,
                 variable=item_list[catagory]['variables'][id + 1],
                 onvalue=1,
@@ -205,15 +215,24 @@ if __name__ == '__main__':
                 padx='10px'
             )
             item_list[catagory]['checkboxes'].append(checkbox)
-        
 
-
-    frame_lower = tk.Frame(mainWindow)
-    frame_lower.pack(side='bottom')
+    generatorframe_lower = tk.Frame(generatorFrame)
+    generatorframe_lower.pack(side='bottom')
     rena_path = tk.StringVar()
-    tk.Label(frame_lower, text='__rena_index_2 File:').grid(row=0, column=0)
-    tk.Entry(frame_lower, textvariable = rena_path).grid(row=0, column=1)
-    tk.Button(frame_lower, text='File Select', command=file_select).grid(row=0, column=2)
-    tk.Button(frame_lower, text='Generate File', command=file_write).grid(row=0, column=3)
+    tk.Label(generatorframe_lower, text='__rena_index_2 File:').grid(row=0, column=0)
+    tk.Entry(generatorframe_lower, textvariable = rena_path).grid(row=0, column=1)
+    tk.Button(generatorframe_lower, text='File Select', command=file_select).grid(row=0, column=2)
+    tk.Button(generatorframe_lower, text='Generate File', command=file_write).grid(row=0, column=3)
+
+    # Generate rena index from custom file
+
+    appendorframe_upper = tk.Frame(appendorFrame)
+    
+    tk.Label(appendorframe_upper, text='Chart folder:').grid(row=0, column=0)
+    tk.Label(appendorframe_upper, text='Music File:').grid(row=0, column=0)
+    tk.Label(appendorframe_upper, text='Cover File:').grid(row=0, column=0)
+    tk.Label(appendorframe_upper, text='Preview File:').grid(row=0, column=0)
+    for rows in range(4):
+        tk.Entry(generatorframe_lower, textvariable = rena_path).grid(row=0, column=1)
 
     mainWindow.mainloop()
