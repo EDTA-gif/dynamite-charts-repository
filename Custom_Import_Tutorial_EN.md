@@ -4,10 +4,10 @@
 Copy your chart, music, preview music and cover files into `data`(Android)/`Documents`(iOS) folder.
 
 * As far as we know, only audio files in `.mp3` format and pictures in `.jpg` or `.png` format can be properly imported, so please convert your files if  they're not in formats that are mentioned above.
-* Refer to [Main Guide](./README_EN.md) for detailed import methods
+* Refer to [Main Guide](./README_EN.md) for detailed import methods.
 
 ## Step 2
-Modify the local `__rena_index_2` file to add an entry for your file
+Modify the local `__rena_index_2` file to add an entry for your file.
 
 Entry structure：
 ```
@@ -25,25 +25,29 @@ H?<Chart difficulty 1>;<Chart difficulty 2>; ...
 M?<Chart file 1>;<Chart file 2>; ...
 E.
 ```
-* Any value works in UUID row
-  * A random hex string of length 24 is recommended
+* Any value works in UUID row.
+  * A random hex string of length 24 is recommended.
   * UUID is related to score records. Duplicated UUID leads to incorrect relation from song to score records, and empty UUID causes inability to record play score.
 
-* All file paths are relative paths to `data`/`Documents` folder
+* All file paths are relative paths to `data`/`Documents` folder.
   * Semicolons (`;`) in path is not allowed, all other symbols will be treated as part of the path.</br>
     For example, if the chart file is named `SECRET;WEAPON_M.xml`, then no matter whether the entry is `M?SECRET;WEAPON_M.xml;` or `M?"SECRET;WEAPON_M.xml";`, the game won't find the chart file. Please delete semicolons in filenames.
-  * Slashes `/` cannot be replaced by backslashes `\`
+  * Slashes `/` cannot be replaced by backslashes `\`.
 
-* For multiple-diffed charts, the file paths correspond to the difficulties in input order
+* For multiple-diffed charts, the file paths correspond to the difficulties in input order.
   * If there are more files than difficulties, the redundant charts will be ignored.
   * Less files than difficulties will cause bugs to occur.
 
-* It's allowed to have custom difficulty names and levels
-  * Any name or level without comma `,` or semicolon `;` is allowed
+* If the length of a chart file path is under 24 characters, its difficulty info and song preview will not be able to display normally on song select screen.
+  * For multy-diffed charts, you need a proper path for every chart file to avoid this bug, or it will still occur when you switch to the bugged diff in game.
+  * The bug will not affect the gameplay and play results.
+
+* It's allowed to have custom difficulty names and levels.
+  * Any name or level without comma `,` or semicolon `;` is allowed.
   * Any input except Causal, Normal, Hard, Mega and Giga (case insensitive) will be regarded as custom difficulty names, and will be displayed in the layout of Tera.
 
-* If you want the chart to be identified as unranked or not hidden, leave out that whole line. Any value given will be regarded as true
-  * The value will be regarded as true even with inputs like `R?` or `R?0`
+* If you want the chart to be identified as unranked or not hidden, leave out that whole line. Any value given will be regarded as true.
+  * The value will be regarded as true even with inputs like `R?` or `R?0`.
 
 
 Example:
