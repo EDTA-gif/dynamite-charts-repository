@@ -34,6 +34,10 @@ E.
     For example, if the chart file is named `SECRET;WEAPON_M.xml`, then no matter whether the entry is `M?SECRET;WEAPON_M.xml;` or `M?"SECRET;WEAPON_M.xml";`, the game won't find the chart file. Please delete semicolons in filenames.
   * Slashes `/` cannot be replaced by backslashes `\`
 
+* The game might not display the preview and level information on the song select page properly for some charts
+  * What caused the bug is not known yet
+  * To avoid it, please put your files in **a folder with a name that contains at least 6 characters** for the game to import
+
 * For multiple-diffed charts, the file paths correspond to the difficulties in input order
   * If there are more files than difficulties, the redundant charts will be ignored.
   * Less files than difficulties will cause bugs to occur.
