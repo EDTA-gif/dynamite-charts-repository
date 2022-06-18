@@ -525,7 +525,7 @@ U?默
 W?Blacklolita
 I?
 H?HARD,10;
-M?赫(默)/赫_HARD.xml.rnx;
+M?赫(默)/_____赫_HARD.xml.rnx;
 E.
 
 B.627d2b063fbe621f2963c3e4
@@ -1009,7 +1009,7 @@ U?三叶苜蓿.
 W?ゆゆうた
 I?
 H?GIGA,14;
-M?禊(三叶苜蓿.)/禊_GIGA.xml.rnx;
+M?禊(三叶苜蓿.)/_禊_GIGA.xml.rnx;
 E.
 
 B.626b771defc1c54a34261d0b
@@ -2230,7 +2230,7 @@ U?3r1
 W?Ice
 I?
 H?MEGA,14;
-M?L(3r1)/L_MEGA.xml.rnx;
+M?L(3r1)/___L_MEGA.xml.rnx;
 E.
 
 B.60e31086f0c89a08c5331123
@@ -2374,7 +2374,7 @@ U?3r1
 W?MisoilePunch♪
 I?
 H?GIGA,14;
-M?彩(3r1)/彩_GIGA.xml.rnx;
+M?彩(3r1)/___彩_GIGA.xml.rnx;
 E.
 
 B.610836e394fe0fc2f1c9fc02
@@ -7373,7 +7373,7 @@ U?i8
 W?弁士カンタビレオ
 I?サイレント
 H?HARD,25;
-M?音楽(i8)/音楽_HARD.xml.rnx;
+M?音楽(i8)/__音楽_HARD.xml.rnx;
 E.
 
 B.5f546054967b9ee0ad951344
@@ -17367,7 +17367,7 @@ U?Rad
 W?Franz schubert
 I?NSMB face
 H?Giga,15;
-M?魔王(Rad)/魔王_Giga.xml.rnx;
+M?魔王(Rad)/_魔王_Giga.xml.rnx;
 E.
 
 B.5cbbfb4f9d4308094ae8cd9f
@@ -18045,7 +18045,7 @@ U?Likey
 W?gmtn.
 I?回坑第一作
 H?Hard,10;
-M?鎖(Likey)/鎖_Hard.xml.rnx;
+M?鎖(Likey)/_鎖_Hard.xml.rnx;
 E.
 
 B.5c983817db655737c9a36a5f
@@ -18424,3 +18424,4 @@ I?谱面设计: TangScend\n一稿2018 Feb.\n二稿2018 Sept.\n自己写的也很
 H?Casual,1;Normal,5;Mega,11;
 M?D̵̤͗ḛ̷̇a̷̫̓d̶͉́ ̵̜͐S̷̲̋o̵̤̒ǔ̵̠l̶̰͌(TangScend)/D̵̤͗ḛ̷̇a̷̫̓d̶͉́ ̵̜͐S̷̲̋o̵̤̒ǔ̵̠l̶̰͌_Casual.xml.rnx;D̵̤͗ḛ̷̇a̷̫̓d̶͉́ ̵̜͐S̷̲̋o̵̤̒ǔ̵̠l̶̰͌(TangScend)/D̵̤͗ḛ̷̇a̷̫̓d̶͉́ ̵̜͐S̷̲̋o̵̤̒ǔ̵̠l̶̰͌_Normal.xml.rnx;D̵̤͗ḛ̷̇a̷̫̓d̶͉́ ̵̜͐S̷̲̋o̵̤̒ǔ̵̠l̶̰͌(TangScend)/D̵̤͗ḛ̷̇a̷̫̓d̶͉́ ̵̜͐S̷̲̋o̵̤̒ǔ̵̠l̶̰͌_Mega.xml.rnx;
 E.
+
