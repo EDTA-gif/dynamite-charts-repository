@@ -44,7 +44,7 @@ Dynamite Backup Project
 3. 将Charts文件夹内的所有文件放入该目录中，用文件夹里的`__rena_index_2`文件覆盖掉本地的对应文件
 4. 即可离线游玩
 
-> 对于版本大于等于12的安卓系统，如发现默认文件管理器无法打开`Android/data`，请考虑利用Magisk等工具root
+> 对于版本[大于等于11的安卓系统](https://source.android.com/devices/storage/fuse-passthrough)，如发现默认文件管理器无法打开`Android/data`，可以使用第三方文件管理器（如MT管理器）[获取访问权限](https://developer.android.com/guide/topics/providers/document-provider)，或利用Magisk等工具root后进行操作
 
 ### iOS (Sideloadly/AltStore)
 
