@@ -22,8 +22,6 @@ Dynamite Backup Project
 * 对文件名，文件结构和`__rena_index_2`文件进行了整理
 * 数据保留了游戏内加密，目前只可以导入Dynamite进行游玩
 * Github仅做文件统计和修正用途，全部谱面补全后会在发布国内相对方便下载的源
-* 目前确定尚缺的谱：
-  * Inferno City -インフェルノシティ- by Ponchi feat. はぁち Unranked GIGA Lv.15 
 
 ## 曲目一览
 * Charts文件夹中的子文件夹大部分是按照`<曲名>(<谱师名>)`的格式命名的，为了区分同一作者提交的同一曲的多个版本也有`<曲名>_<Ranked状态>(<谱师名>)`的命名格式

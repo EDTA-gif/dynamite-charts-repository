@@ -22,8 +22,6 @@ Dynamite Backup Project
 * Filenames, file structures and `__rena_index_2` are rearranged
 * The data retains the in-game encryption and can only be imported into Dynamite to play
 * GitHub is only used for file statistic and revision purposes. After all the charts are completed, a faster download approach for Mainland China network will be provided.
-* Missing Chart：
-  * Inferno City -インフェルノシティ- by Ponchi feat. はぁち Unranked GIGA Lv.15 
 
 ## List of Songs
 * Most of the subfolders in the Charts folder are named according to the format of `<song title>(<charter>)`. For songs that has more than one version, it will be renamed as `<song title>_<ranked status>(<charter>)`
