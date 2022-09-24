@@ -46,6 +46,8 @@ Dynamite Backup Project
 
 > 对于版本[大于等于11的安卓系统](https://source.android.com/devices/storage/fuse-passthrough)，如发现默认文件管理器无法打开`Android/data`，可以使用第三方文件管理器（如MT管理器）[获取访问权限](https://developer.android.com/guide/topics/providers/document-provider)，或利用Magisk等工具root后进行操作
 
+> 由于Google在Android13修复了使用SAF访问`Android`及子目录的Bug，此方法可能无法在基于Android13的设备上正常工作，其他可行的方案是[Shizuku](https://shizuku.rikka.app/)/[Sui](https://github.com/RikkaApps/Sui)或者[Magisk](https://github.com/topjohnwu/Magisk)
+
 ### iOS (Sideloadly/AltStore)
 
 > 参考：

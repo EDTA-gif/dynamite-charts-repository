@@ -44,7 +44,9 @@ Dynamite Backup Project
 3. Put all the files in the Charts folder into this directory, and overwrite the local corresponding files with the `__rena_index_2` file in the folder
 4. You can now play in offline mode
 
-> For Android systems with version 12 or higher, if your file manager cannot access `Android/data`, please consider using tools such as Magisk to root
+> For Android systems with version 11 or higher, if your file manager cannot access `Android/data`, please consider using tools such as Magisk to root
+
+> Google fixed the SAF bug in Android 13, this solution may not work on Android 13 devices, if this happens please use [Shizuku](https://shizuku.rikka.app/)/[Sui](https://github.com/RikkaApps/Sui) or [Magisk](https://github.com/topjohnwu/Magisk)
 
 ### iOS (Sideloadly/AltStore)
 
